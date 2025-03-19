@@ -1,0 +1,276 @@
+*{
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .mini{
+    text-align: center;
+    font-size: 30px;
+    color: purple;
+  }
+   @media only screen and (max-width: 400px) {
+      .bar {
+        width: 100%;
+        margin: 8px 0;
+      }
+      .navbar{
+        width: 50%;
+       
+      }
+      .li{
+        width: 50%;
+       padding-left: 1%;
+       
+      }
+    }
+  .bar{
+    background-image: linear-gradient(purple,white);
+    padding-right:20% 15%;
+    margin: 0;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.5);
+    border-radius: 8px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+  }
+  .logo{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 5%;
+    background-image:linear-gradient( to right,rgb(25, 0, 255),red) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;  
+  }
+  li a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 8px;
+  }
+  .bar a:hover{
+    color: black
+  }
+/* *****bar end******* */
+
+  .tool{
+    display: flex;
+    height: 260px;
+    width: 20px;
+    padding-left: 10px;
+    padding: 5px;
+  }
+  .toooool{
+    display: flex;
+    height: 260px;
+    width: 20px;
+    margin-left: 40px;
+    padding: 5px;
+  }
+  .toool{
+    display: flex;
+    height: 260px;
+    width: 20px;
+    margin-left: 16px;
+    padding: 5px;
+  }
+  .tooool{
+    display: flex;
+    height: 260px;
+    width: 20px;
+    margin-left: 100px;
+    padding: 5px;
+  }
+  .title{
+    padding-left:5px ;
+    display:flex;
+    padding-top: 2px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .kk{
+    font-size: 17px;
+    padding-left: 5px;
+    padding-right: 2%;
+  }
+  .time p{
+    margin-top: 0%;
+    padding-top: 0px;
+    padding-left: 10px;
+    font-size:20px;
+    font-weight: bold;
+    color: purple;
+  }
+  .bold{
+    color: black;
+    padding: 3px;
+  }
+  .home{
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+.button{
+  text-decoration: none;
+padding: 5px;
+  margin-left: 45px;
+  height: 80px;
+  width: 90px;
+  font-size: 43px;
+  background-color:white;
+  border-radius: 70px;
+  font-weight: 8px;
+  border-color:white solid;
+}
+.map{
+  display: flex;
+  height:100px; 
+  border:0;
+  margin-right: 0;
+  margin-left: 80px;
+  padding: 0px;
+  padding-bottom: 0px;
+}
+.maps{
+  text-decoration: underline;
+  margin-top: 1px;
+  text-align: center;
+  color: purple;
+}
+.maps:hover{
+  color: black;
+}
+.rode{
+  display: block;
+  padding: 2px;
+  font-size: 20px;
+  margin-left: 53px;
+  font-weight: lighter;
+  word-spacing: 65px;
+  color:white;
+}
+.hr{
+  height: 110px;
+  width: auto;
+  background-image: linear-gradient(white,gray);
+  border-radius: 20px;
+  padding-top: 5px;
+}
+.button :hover{
+color: black;
+}
+@media only screen and (max-width:400px) {
+  .footer {
+    display: none;
+    padding-top: 40%;
+  }
+}
+.time li{
+  display: flex;
+  color: red;
+}
+.footer{
+  display: inline-table; 
+  background-image: linear-gradient(white,purple);
+  height: 80px;
+  width: 100%;
+  margin-top: 1%;
+  border-radius: 20px;
+  border-color: black solid 3px;
+  text-align: center;
+}
+/* college detail */
+.thtitle{
+  text-decoration: underline;
+  padding: 5px;
+  font-size: 20px;
+  color: purple;
+}
+.thtitle:hover{
+  color: blue;
+}
+.contact-us{
+  padding-top: 0px;
+  padding-left: 10px;
+  font-size: large;
+  color: brown;
+  word-spacing: 3px;
+}
+.detail{
+  font-size: 15;
+  padding: 7px;
+}
+.details{
+  padding-left: 15px;
+}
+.sankaralogo{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding-left: 40%;
+}
+html{
+  scroll-behavior: smooth;
+}
+.templess{
+  font-size: 20px;
+  display: inline-table;
+  color: purple;
+  padding: 5px;
+}
+.most{
+  padding: 0%;
+  margin-top: 5%;
+  font-size: 25px;
+  color: brown;
+}
+.templess:hover{
+  color: brown;
+}
+.table{
+  height: 130px;
+  width: auto;
+}
+.hd{
+  color: brown;
+  text-decoration: underline;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.buslink{
+  font-size: 20px;
+  height: 100px;
+  width: auto;
+  background-image: linear-gradient(white,gray);
+  text-align: center;
+  color: purple;
+  border-radius: 20px;
+}
+.buslink:hover{
+  color: brown;
+}
+.link{
+  text-decoration: underline;
+  font-size: large;
+}
+.loo{
+  font-size: 15px;
+}
+.ticket{
+  color: brown;
+  text-decoration: underline;
+}
+.rr{
+  color: purple;
+}
